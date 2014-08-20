@@ -30,7 +30,7 @@ The bottom section displays component properties. Click on a component in the to
 
 ** To the right of the manipulation controls is the connection control. **
 
-![connector_small.png](https://bitbucket.org/repo/qAj6BE/images/994190409-connector_small.png)Clicking on two components in the 3D View will snap them together, and create a fixed connection between the two. The second component to be selected is the target location. 
+![connector_small.png](https://bitbucket.org/repo/qAj6BE/images/994190409-connector_small.png)  When in this mode, clicking on two components in the 3D View will snap them together, and create a fixed connection between the two. The second component to be selected is the target location. 
 
 Note: This tool will be expanded in later versions. 
 
