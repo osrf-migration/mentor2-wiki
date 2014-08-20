@@ -19,11 +19,11 @@ The bottom section displays component properties. Click on a component in the to
 
 ![translate_small.png](https://bitbucket.org/repo/qAj6BE/images/318305491-translate_small.png) Translate mode to translate components in 3D View. Click on component and use translate markers. 
 
-**Note:** You can use "x", "y", or "z" hot keys to translate along that axis. 
+**Note:** You can also use "x", "y", or "z" hot keys to translate along that axis. 
 
 ![rotate_small.png](https://bitbucket.org/repo/qAj6BE/images/3715820262-rotate_small.png) Rotate mode to rotate components in 3D View. Click on component and use rotate markers. 
 
-**Note:** You can use "x", "y", or "z" hot keys to rotate along that axis.
+**Note:** You can also use "x", "y", or "z" hot keys to rotate along that axis.
 
 ![scale_small.png](https://bitbucket.org/repo/qAj6BE/images/4006329730-scale_small.png) Scale mode to scale components in 3D View. Click on component and use scale markers. 
 
