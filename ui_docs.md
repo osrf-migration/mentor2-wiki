@@ -1,6 +1,6 @@
 # User Interface (UI) #
 
-![m2_v1_ui.png](https://bitbucket.org/repo/qAj6BE/images/650533467-m2_v1_ui.png)
+![m2_v1_ui.png](https://bitbucket.org/repo/qAj6BE/images/2938429436-m2_v1_ui.png)
 
 ### A: Component Palette (top) ###
 The left column is the Component Palette. Use this section to add components to the scene. Simply navigate to the desired component, click, and drag to the right (D or E).
@@ -15,7 +15,7 @@ The bottom section displays component properties. Click on a component in the to
 
 ![arrow_small.png](https://bitbucket.org/repo/qAj6BE/images/990512632-arrow_small.png) View mode navigates in 3D View. Left mouse click pans. Scroll wheel zooms. Click scroll wheel to rotate view. 
 
-![translate_small.png](https://bitbucket.org/repo/qAj6BE/images/318305491-translate_small.png) Translate mode to translate components in 3D View. Click on component and use translate markers. 
+![translate_small.png](https://bitbucket.org/repo/qAj6BE/images/318305491-translate_small.png) Translate mode to translate components in 3D View. Click on component and use translate markers. Note: You can use "x", "y", or "z" hot keys to translate along that axis. 
 
 ![rotate_small.png](https://bitbucket.org/repo/qAj6BE/images/3715820262-rotate_small.png) Rotate mode to rotate components in 3D View. Click on component and use rotate markers. 
 
@@ -47,3 +47,18 @@ Use the 3D View to:
 • Rotate, translate and scale components
 
 • View how components react when you run the simulation 
+
+### F: Control Panel ###
+Below the 3D View is the Control Panel. 
+
+Use the Control Panel to:
+
+• Pause/Play physics
+
+• Step through the simulation in specific increments, or "steps" 
+
+• View the Real Time Factor, Simulation Time, and Real Time
+
+• View the number of iterations that have...????
+
+• Reset the simulation
