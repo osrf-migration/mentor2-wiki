@@ -14,7 +14,9 @@ The bottom section displays component properties. Click on a component in the to
 #### The left-most group of icons contains manipulation controls. ####
 
 ![arrow.png](https://bitbucket.org/repo/qAj6BE/images/1628086675-arrow.png) View mode navigates in 3D View. Left mouse click pans. Scroll wheel zooms. Click scroll wheel to rotate view. 
+
 ![translate.png](https://bitbucket.org/repo/qAj6BE/images/192904358-translate.png) Translate mode to translate components in 3D View. Click on component and use translate markers. 
+
 ![rotate_final.png](https://bitbucket.org/repo/qAj6BE/images/3965965912-rotate_final.png) Rotate mode to rotate components in 3D View. Click on component and use rotate markers. 
 
 ![scale_lighter.png](https://bitbucket.org/repo/qAj6BE/images/767720219-scale_lighter.png)  Scale mode to scale components in 3D View. Click on component and use scale markers. 
