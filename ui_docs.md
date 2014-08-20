@@ -1,6 +1,6 @@
 # User Interface (UI) #
 
-![m2_v1_ui.png](https://bitbucket.org/repo/qAj6BE/images/3572322739-m2_v1_ui.png)
+![m2_v1_ui.png](https://bitbucket.org/repo/qAj6BE/images/650533467-m2_v1_ui.png)
 
 ### A: Component Palette (top) ###
 The left column is the Component Palette. Use this section to add components to the scene. Simply navigate to the desired component, click, and drag to the right (D or E).
