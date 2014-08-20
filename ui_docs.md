@@ -35,7 +35,7 @@ The bottom section displays component properties. Click on a component in the to
 Note: This tool will be expanded in later versions. 
 
 ### D: Schematic View ###
-This section displays a schematic representation of each component. Spatial positioning is not indicative of a component's location relative to other components. Each component comes with a set of relevant "ports" that can be used to connect one component to another. 
+This section displays a schematic representation of each component. Spatial positioning in this view is not indicative of a component's location relative to other components. Each component comes with a set of relevant "ports" that can be used to connect one component to another. 
 
 Use the Schematic View to:
 
