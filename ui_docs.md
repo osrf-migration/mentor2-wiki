@@ -13,7 +13,7 @@ The bottom section displays component properties. Click on a component in the to
 **Note**: This will not overwrite the default properties for future use. 
 
 ### C: Toolbar ###
-**#### The left-most group of icons contains manipulation controls. ####**
+**The left-most group of icons contains manipulation controls.**
 
 ![arrow_small.png](https://bitbucket.org/repo/qAj6BE/images/990512632-arrow_small.png) View mode navigates in 3D View. Left mouse click pans. Scroll wheel zooms. Click scroll wheel to rotate view. 
 
@@ -28,7 +28,7 @@ The bottom section displays component properties. Click on a component in the to
 ![scale_small.png](https://bitbucket.org/repo/qAj6BE/images/4006329730-scale_small.png) Scale mode to scale components in 3D View. Click on component and use scale markers. 
 
 
-**#### To the right of the manipulation controls is the connection control. ####**
+** To the right of the manipulation controls is the connection control. **
 
 ![connector_small.png](https://bitbucket.org/repo/qAj6BE/images/994190409-connector_small.png)Clicking on two components in the 3D View will snap them together, and create a fixed connection between the two. The second component to be selected is the target location. 
 
