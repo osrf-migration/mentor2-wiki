@@ -65,6 +65,6 @@ Use the Control Panel to:
 
 • View the Real Time Factor, Simulation Time, and Real Time
 
-• View the number of iterations that have...????
+• View the number of iterations that the physics engine have taken.
 
 • Reset the simulation
