@@ -1,4 +1,5 @@
 SDFormat Installation
+===
 
 The ROTC demo requires a special branch of SDFormat. To install, follow the steps below:
 
