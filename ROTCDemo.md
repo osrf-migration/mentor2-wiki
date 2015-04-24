@@ -12,7 +12,7 @@ The ROTC demo requires a special branch of SDFormat. To install, follow the step
   
 1. Update to the mentor2 demo branch
 
-
+        cd ~/code/sdformat
         hg pull -u
         hg up mentor2_v2
 
@@ -56,7 +56,7 @@ The ROTC demo requires a special branch of Gazebo. To install, follow the steps 
   
 1. Update to the mentor2 demo branch
 
-
+        cd ~/code/gazebo
         hg pull -u
         hg up mentor2_v2
 
@@ -100,6 +100,7 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
   
 1. Update to the v2 demo branch
 
+        cd ~/code/mentor2
         hg pull -u
         hg up v2
 
@@ -157,7 +158,11 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
 
 # Running M2 Demos
 
-1. source the environment setup file
+1. Navigate to the mentor2 directory, e.g.
+
+        cd ~/code/mentor2/
+
+1. Source the environment setup file
 
         source /usr/local/share/simplegdk/setup.sh
 
@@ -166,5 +171,5 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
         source ~/local/share/simplegdk/setup.sh
 
 1. Run a demo world, e.g.
-
-        gazebo demo.world
+               
+        gazebo worlds/gearbox_test.world
