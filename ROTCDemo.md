@@ -133,6 +133,7 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
 
 ## Retrieving Updates
 
+**NOTE**: The packages should be updated in this order: 1. sdformat, 2. gazebo, 3. mentor2
 
 1. Navigate to the source directory of the sdformat/gazebo/mentor2 packages, e.g.
 
@@ -158,6 +159,8 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
 
 # Running M2 Demos
 
+## Source setup file
+
 1. Navigate to the mentor2 directory, e.g.
 
         cd ~/code/mentor2/
@@ -170,6 +173,39 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
 
         source ~/local/share/simplegdk/setup.sh
 
-1. Run a demo world, e.g.
-               
+## Demo worlds
+
+- **gearbox test world**
+
         gazebo worlds/gearbox_test.world
+
+1. Expand the joint control widget by dragging on the three white dots on the right border of the gazebo window towards the middle of the screen
+
+1. click on the motor model in the 3D view to select it and see the joint names appear in the joint control widget.
+
+1. enter a small number in the `motor_shaft_joint` input field to apply some torque to the motor shaft. The vehicle should start rolling away. Applying large torques may cause the vehicle to be unstable.
+
+To change the gearbox ratio:
+
+1. edit the gearbox_test.world file in the `mentor2/worlds` directory
+
+1. search for the text `gear_ratio`, and change the value
+
+1. restart gazebo
+               
+
+- **region event test world**
+               
+        ./run.bash worlds/tow.world
+
+1. Log in by going to `Mentor2` > `Login` menu in the toolbar and entering the URL, username, and password in the dialog.
+
+1. Expand the joint control widget by dragging on the three white dots on the right border of the gazebo window towards the middle of the screen
+
+1. click on the car model in the 3D view to select it and see the joint names appear in the joint control widget.
+
+1. enter a small number in the `chassis_JOINT_1` input field to apply some torque (negative value, e.g. -1.0) to the joint connecting the axle to the chassis. 
+
+1. Press the play button (first button from the left in the bottom panel). The vehicle should start rolling into the regions in front of it. This triggers events to be posted to the Learning Companion.
+
+Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
