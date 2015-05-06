@@ -209,3 +209,36 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
     1. Press the play button (first button from the left in the bottom panel). The vehicle should start rolling into the regions in front of it. This triggers events to be posted to the Learning Companion.
 
     Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
+
+
+- **Practice world 1 - vehicle_ramp_region world**
+               
+        ./run.bash worlds/vehicle_ramp_region.world
+
+    1. Log in by going to `Mentor2` > `Login` menu in the toolbar and entering the URL, username, and password in the dialog.
+
+    1. Press the play button to see the vehicle roll down the ramp. This triggers events to be posted to the Learning Companion.
+
+    Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
+
+
+- **Practice world 2 - vehicle_motor_region world**
+               
+        ./run.bash worlds/vehicle_motor_region.world
+
+    1. Log in by going to `Mentor2` > `Login` menu in the toolbar and entering the URL, username, and password in the dialog.
+
+    1. Press the play button to see the vehicle roll over the regions in front. This triggers events to be posted to the Learning Companion.
+
+    1. To change the gear ratio: 
+        1. Pause the simulation
+
+        1. Right click on the vehicle model in the 3D view and select `Edit model`, 
+
+        1. Double click on the motor box (the casing between the wheels) and change the `gear_ratio` value.
+
+        1. Save the model (`File` > `Save As`) and give it a different name, e.g. `vehicle_2`, and exit the model editor (`File` > `Exit Model Editor`).
+ 
+        1. Press the play button again to see the behavior of the vehicle with the updated gear ratio.
+
+    Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
