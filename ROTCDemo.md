@@ -242,3 +242,24 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
         1. Press the play button again to see the behavior of the vehicle with the updated gear ratio.
 
     Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
+
+
+- **Practice world 3 - empty_region world**
+               
+        ./run.bash worlds/empty_region.world
+
+    1. Log in by going to `Mentor2` > `Login` menu in the toolbar and entering the URL, username, and password in the dialog.
+
+    1. Pause the simulation.
+
+    1. Insert ramp into the world by going to the `Insert` tab on the left hand panel, click on the `Ramp` model to select it, move the mouse to the 3D view, and finally click again to spawn it into the world.
+
+    1. Repeat the above step to insert a `Vehicle` or `Vehicle (No Motor)` model into the world
+
+    1. Position the ramp at one end of the textured regions in the world and orient it so that the slope decreases towards the regions.
+
+    1. Position the vehicle slightly above the ramp and make sure its facing the regions.
+
+    1. Press the play button to see the vehicle roll down the slope. This triggers events to be posted to the Learning Companion.
+
+    Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
