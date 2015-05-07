@@ -263,3 +263,17 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
     1. Press the play button to see the vehicle roll down the slope. This triggers events to be posted to the Learning Companion.
 
     Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
+
+
+- **Practice world 4 - vehicle_climb world**
+               
+        ./run.bash worlds/vehicle_climb.world
+
+    1. Log in by going to `Mentor2` > `Login` menu in the toolbar and entering the URL, username, and password in the dialog.
+
+    1. Press the play button to see the vehicle roll over the regions in front. This triggers events to be posted to the Learning Companion.
+
+    1. Change gear ratio in the same way as Practice world 2 until the vehicle is able to climb to the top of the ramp: 
+
+
+    Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
