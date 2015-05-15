@@ -277,3 +277,7 @@ The ROTC demo requires a special branch of MENTOR2. To install, follow the steps
 
 
     Note: remember to execute `./stop.bash` to kill the server process after exiting the gazebo GUI client
+
+- **Demo world - vrc_driving_task.world**
+               
+        ./run.bash worlds/vrc_driving_task.world
